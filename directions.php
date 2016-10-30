@@ -80,7 +80,7 @@
 			</td>
 			<td>
 				<div class="box">
-					<div>right</div><div class="character">北</div><div class="btn-group btn-group-lg">
+					<div>right</div><div class="character">右</div><div class="btn-group btn-group-lg">
 						<button type="button" class="btn btn-huge btn-primary" onclick="play('dui4');">duì</button>
 					</div>
 				</div>
