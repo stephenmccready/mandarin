@@ -26,6 +26,7 @@
 <audio controls="" id="liao2"><source src="audio/lia2.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
 <audio controls="" id="ning2"><source src="audio/ning2.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
 <audio controls="" id="ji2"><source src="audio/ji2.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
+<audio controls="" id="lin2"><source src="audio/lin2.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
 <audio controls="" id="hei1"><source src="audio/hei1.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
 <audio controls="" id="long2"><source src="audio/long2.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
 <audio controls="" id="jiang1"><source src="audio/jiang1.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
@@ -65,8 +66,8 @@
 <audio controls="" id="men2"><source src="audio/men2.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
 <?php include 'navbar.html'; ?>
 <div class="container-fluid">
-	<div class="clearfix"><p><img src="img\china.jpg"></img></p></div>
-	<div class="clearfix"><img src="img\china1.jpg"></img></div>
+	<div class="clearfix"><p><img src="img\china.jpg"/></p></div>
+	<div class="clearfix"><img src="img\china1.jpg"/></div>
 		<div class="box">
 			<div>11 Běijīng<br />North Capital</div><div class="character">北京</div><div class="btn-group btn-group-lg">
 				<button type="button" class="btn btn-huge btn-success" onclick="play('bei3');">Běi</button>
@@ -99,7 +100,7 @@
 			</div>
 		</div>
 
-	<div class="clearfix"><img src="img\china2.jpg"></img></div>
+	<div class="clearfix"><img src="img\china2.jpg"/></div>
 	<div class="box">
 		<div>21 Liáoníng<br />Distant Peace</div><div class="character">辽宁</div><div class="btn-group btn-group-lg">
 			<button type="button" class="btn btn-huge btn-warning" onclick="play('liao2');">Liáo</button>
@@ -119,7 +120,7 @@
 			<button type="button" class="btn btn-huge btn-danger" onclick="play('jiang1');">jiāng</button>
 		</div>
 	</div>
-	<div class="clearfix"><img src="img\china3.jpg"></img></div>
+	<div class="clearfix"><img src="img\china3.jpg"/></div>
 	<div class="box">
 		<div>31 Shànghǎi<br />Above Sea</div><div class="character">上海</div><div class="btn-group btn-group-lg">
 			<button type="button" class="btn btn-huge btn-primary" onclick="play('shang4');">Shàng</button>
@@ -162,7 +163,7 @@
 			<button type="button" class="btn btn-huge btn-danger" onclick="play('dong1');">dōng</button>
 		</div>
 	</div>
-	<div class="clearfix"><img src="img\china4.jpg"></img></div>
+	<div class="clearfix"><img src="img\china4.jpg"/></div>
 	<div class="box">
 		<div>41 Hénán<br />River South</div><div class="character">河南</div><div class="btn-group btn-group-lg">
 			<button type="button" class="btn btn-huge btn-warning" onclick="play('he2');">Hé</button>
@@ -199,7 +200,7 @@
 			<button type="button" class="btn btn-huge btn-warning" onclick="play('nan2');">nán</button>
 		</div>
 	</div>
-	<div class="clearfix"><img src="img\china5.jpg"></img></div>
+	<div class="clearfix"><img src="img\china5.jpg"/></div>
 	<div class="box">
 		<div>50 Chóngqìng<br />Double Celebration</div><div class="character">重庆</div><div class="btn-group btn-group-lg">
 			<button type="button" class="btn btn-huge btn-warning" onclick="play('chong2');">Chóng</button>
@@ -230,7 +231,7 @@
 			<button type="button" class="btn btn-huge btn-primary" onclick="play('zang4');">zàng</button>
 		</div>
 	</div>
-	<div class="clearfix"><img src="img\china6.jpg"></img></div>
+	<div class="clearfix"><img src="img\china6.jpg"/></div>
 	<div class="box">
 		<div>61 Shǎnxī [Shaanxi]<br />West [of the Shan Pass]</div><div class="character">陕西</div><div class="btn-group btn-group-lg">
 			<button type="button" class="btn btn-huge btn-success" onclick="play('shan3');">Shǎn</button>
@@ -261,7 +262,7 @@
 			<button type="button" class="btn btn-huge btn-danger" onclick="play('jiang1');">jiāng</button>
 		</div>
 	</div>
-	<div class="clearfix"><img src="img\china7.jpg"></img></div>
+	<div class="clearfix"><img src="img\china7.jpg"/></div>
 	<div class="box">
 		<div>71 Táiwān<br />Station Bay</div><div class="character">台湾</div><div class="btn-group btn-group-lg">
 			<button type="button" class="btn btn-huge btn-warning" onclick="play('tai2');">Tái</button>
