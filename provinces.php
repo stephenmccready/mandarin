@@ -66,8 +66,8 @@
 <audio controls="" id="men2"><source src="audio/men2.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
 <?php include 'navbar.html'; ?>
 <div class="container-fluid">
-	<div class="clearfix"><p><img src="img\china.jpg"/></p></div>
-	<div class="clearfix"><img src="img\china1.jpg"/></div>
+	<div class="clearfix"><p><img src="img\china.jpg"></img></p></div>
+	<div class="clearfix"><img src="img\china1.jpg"></img></div>
 		<div class="box">
 			<div>11 Běijīng<br />North Capital</div><div class="character">北京</div><div class="btn-group btn-group-lg">
 				<button type="button" class="btn btn-huge btn-success" onclick="play('bei3');">Běi</button>
@@ -100,7 +100,7 @@
 			</div>
 		</div>
 
-	<div class="clearfix"><img src="img\china2.jpg"/></div>
+	<div class="clearfix"><img src="img\china2.jpg"></img></div>
 	<div class="box">
 		<div>21 Liáoníng<br />Distant Peace</div><div class="character">辽宁</div><div class="btn-group btn-group-lg">
 			<button type="button" class="btn btn-huge btn-warning" onclick="play('liao2');">Liáo</button>
@@ -108,7 +108,7 @@
 		</div>
 	</div>
 	<div class="box">
-		<div>22 Jílín<br />Auspicious Forest</div><div class="character">吉林</div><div class="btn-group btn-group-lg">
+		<div>22 Jílín<br />Auspicious Woods</div><div class="character">吉林</div><div class="btn-group btn-group-lg">
 			<button type="button" class="btn btn-huge btn-warning" onclick="play('ji2');">Jí</button>
 			<button type="button" class="btn btn-huge btn-warning" onclick="play('lin2');">lín</button>
 		</div>
@@ -120,7 +120,7 @@
 			<button type="button" class="btn btn-huge btn-danger" onclick="play('jiang1');">jiāng</button>
 		</div>
 	</div>
-	<div class="clearfix"><img src="img\china3.jpg"/></div>
+	<div class="clearfix"><img src="img\china3.jpg"></img></div>
 	<div class="box">
 		<div>31 Shànghǎi<br />Above Sea</div><div class="character">上海</div><div class="btn-group btn-group-lg">
 			<button type="button" class="btn btn-huge btn-primary" onclick="play('shang4');">Shàng</button>
@@ -158,12 +158,12 @@
 		</div>
 	</div>
 	<div class="box">
-		<div>37 Shāndōng<br />Mountain East</div><div class="character">山东</div><div class="btn-group btn-group-lg">
+		<div>37 Shāndōng<br />Mountain East</div><div class="character">山東</div><div class="btn-group btn-group-lg">
 			<button type="button" class="btn btn-huge btn-danger" onclick="play('shan1');">Shān</button>
 			<button type="button" class="btn btn-huge btn-danger" onclick="play('dong1');">dōng</button>
 		</div>
 	</div>
-	<div class="clearfix"><img src="img\china4.jpg"/></div>
+	<div class="clearfix"><img src="img\china4.jpg"></img></div>
 	<div class="box">
 		<div>41 Hénán<br />River South</div><div class="character">河南</div><div class="btn-group btn-group-lg">
 			<button type="button" class="btn btn-huge btn-warning" onclick="play('he2');">Hé</button>
@@ -200,7 +200,7 @@
 			<button type="button" class="btn btn-huge btn-warning" onclick="play('nan2');">nán</button>
 		</div>
 	</div>
-	<div class="clearfix"><img src="img\china5.jpg"/></div>
+	<div class="clearfix"><img src="img\china5.jpg"></img></div>
 	<div class="box">
 		<div>50 Chóngqìng<br />Double Celebration</div><div class="character">重庆</div><div class="btn-group btn-group-lg">
 			<button type="button" class="btn btn-huge btn-warning" onclick="play('chong2');">Chóng</button>
@@ -231,7 +231,7 @@
 			<button type="button" class="btn btn-huge btn-primary" onclick="play('zang4');">zàng</button>
 		</div>
 	</div>
-	<div class="clearfix"><img src="img\china6.jpg"/></div>
+	<div class="clearfix"><img src="img\china6.jpg"></img></div>
 	<div class="box">
 		<div>61 Shǎnxī [Shaanxi]<br />West [of the Shan Pass]</div><div class="character">陕西</div><div class="btn-group btn-group-lg">
 			<button type="button" class="btn btn-huge btn-success" onclick="play('shan3');">Shǎn</button>
@@ -262,7 +262,7 @@
 			<button type="button" class="btn btn-huge btn-danger" onclick="play('jiang1');">jiāng</button>
 		</div>
 	</div>
-	<div class="clearfix"><img src="img\china7.jpg"/></div>
+	<div class="clearfix"><img src="img\china7.jpg"></img></div>
 	<div class="box">
 		<div>71 Táiwān<br />Station Bay</div><div class="character">台湾</div><div class="btn-group btn-group-lg">
 			<button type="button" class="btn btn-huge btn-warning" onclick="play('tai2');">Tái</button>
@@ -282,43 +282,6 @@
 		</div>
 	</div>
 </div>
-<!--  Code	Subdivision name[note 1]	Subdivision name (zh) [note 2]	Subdivision category
-71	Taiwan	台湾 (Táiwān)	Province
-91	Hong Kong (en) Xianggang (zh)	香港 (Xiānggǎng)	Special administrative region
-92	Macao (en) Aomen (zh)	澳门 (Àomén)	Special administrative region
-
-11	Beijing	北京 (Běijīng)	Municipality
-12	Tianjin	天津 (Tiānjīn)	Municipality
-13	Hebei	河北 (Héběi)	Province
-14	Shanxi	山西 (Shānxī)	Province
-15	Nei Mongol (mn)(Inner Mongolia)	内蒙古 (Nèi Ménggǔ)	Autonomous region
-21	Liaoning	辽宁 (Liáoníng)	Province
-22	Jilin	吉林 (Jílín)	Province
-23	Heilongjiang	黑龙江 (Hēilóngjiāng)	Province
-31	Shanghai	上海 (Shànghǎi)	Municipality
-32	Jiangsu	江苏 (Jiāngsū)	Province
-33	Zhejiang	浙江 (Zhèjiāng)	Province
-34	Anhui	安徽 (Ānhuī)	Province
-35	Fujian	福建 (Fújiàn)	Province
-36	Jiangxi	江西 (Jiāngxī)	Province
-37	Shandong	山东 (Shāndōng)	Province
-41	Henan	河南 (Hénán)	Province
-42	Hubei	湖北 (Húběi)	Province
-43	Hunan	湖南 (Húnán)	Province
-44	Guangdong	广东 (Guǎngdōng)	Province
-45	Guangxi	广西 (Guǎngxī)	Autonomous region
-46	Hainan	海南 (Hǎinán)	Province
-50	Chongqing	重庆 (Chóngqìng)	Municipality
-51	Sichuan	四川 (Sìchuān)	Province
-52	Guizhou	贵州 (Guìzhōu)	Province
-53	Yunnan	云南 (Yúnnán)	Province
-54	Xizang (Tibet)	西藏 (Xīzàng)	Autonomous region
-61	Shaanxi	陕西 (Shǎnxī)	Province
-62	Gansu	甘肃 (Gānsù)	Province
-63	Qinghai	青海 (Qīnghǎi)	Province
-64	Ningxia	宁夏 (Níngxià)	Autonomous region
-65	Xinjiang	新疆 (Xīnjiāng)	Autonomous region
--->
 <script src="js/chinese.js"></script>
 <script>$("#breadcrumb").html("&#128507;&nbsp;geography&nbsp;基本 > &#127760;&nbsp;provinces&nbsp;省份 >");</script>
 </body>
