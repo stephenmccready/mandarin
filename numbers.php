@@ -87,9 +87,9 @@
 			</div>
 		</div>
 		<div class="box">
-			<div>11</div><div class="character">一十</div><div class="btn-group btn-group-lg">
-				<button type="button" class="btn btn-huge btn-danger" onclick="play('yi1');">yī</button>
+			<div>11</div><div class="character">十一</div><div class="btn-group btn-group-lg">
 				<button type="button" class="btn btn-huge btn-warning" onclick="play('shi2');">shí</button>
+				<button type="button" class="btn btn-huge btn-danger" onclick="play('yi1');">yī</button>
 			</div>
 		</div>
 		<div class="box">
