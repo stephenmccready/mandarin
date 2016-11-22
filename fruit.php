@@ -37,6 +37,9 @@
 <audio controls="" id="mei2"><source src="audio/mei2.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
 <audio controls="" id="pu2"><source src="audio/pu2.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
 <audio controls="" id="xing4"><source src="audio/xing4.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
+<audio controls="" id="ning2"><source src="audio/ning2.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
+<audio controls="" id="meng2"><source src="audio/meng2.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
+<audio controls="" id="qing1"><source src="audio/qing1.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
 <?php include 'navbar.html'; ?>
 <div class="container-fluid">
 	<div class="box">
@@ -79,6 +82,18 @@
 		<div>grape</div><div class="character">葡萄</div><div class="btn-group btn-group-lg">
 			<button type="button" class="btn btn-huge btn-warning" onclick="play('pu2');">pú</button>
 			<button type="button" class="btn btn-huge btn-warning" onclick="play('tao2');">táo</button>
+		</div>
+	</div>
+	<div class="box">
+		<div>lemon</div><div class="character">檸檬</div><div class="btn-group btn-group-lg">
+			<button type="button" class="btn btn-huge btn-warning" onclick="play('ning2');">níng</button>
+			<button type="button" class="btn btn-huge btn-warning" onclick="play('meng2');">méng</button>
+		</div>
+	</div>
+	<div class="box">
+		<div>lime</div><div class="character">青檸</div><div class="btn-group btn-group-lg">
+			<button type="button" class="btn btn-huge btn-danger" onclick="play('qing1');">qīng</button>
+			<button type="button" class="btn btn-huge btn-warning" onclick="play('ning2');">níng</button>
 		</div>
 	</div>
 	<div class="box">
