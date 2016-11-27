@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" content=""/><meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>&#174; radicals D - G</title><link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script><!--[if IE]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--><link rel="stylesheet" href="css/chinese.css">
+    <title>&#174; radicals D - G</title>
+	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<!--[if IE]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--><link rel="stylesheet" href="css/chinese.css">
 </head>
 <body>
 <audio controls="" id="dai3"><source src="audio/dai3.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
@@ -97,11 +101,11 @@
 		<tr><td>香</td><td></td><td><button type="button" class="btn btn-huge btn-danger" onclick="play('xiang1');">xiang1</button></td><td>fragrant</td></tr>
 		<tr><td>黽</td><td>黾</td><td><button type="button" class="btn btn-huge btn-success" onclick="play('min3');">min3</button></td><td>frog</td></tr>
 		<tr><td>毛</td><td></td><td><button type="button" class="btn btn-huge btn-warning" onclick="play('mao2');">mao2</button></td><td>fur</td></tr>
-		<tr><th colspan="4">F</th></tr>
+		<tr><th colspan="4">G</th></tr>
 		<tr><td>門</td><td>门</td><td><button type="button" class="btn btn-huge btn-warning" onclick="play('men2');">men2</button></td><td>gate</td></tr>
 		<tr><td>鬼</td><td></td><td><button type="button" class="btn btn-huge btn-success" onclick="play('gui3');">gui3</button></td><td>ghost</td></tr>
-		<tr><td>夂</td><td><small>(top)</small></td><td><button type="button" class="btn btn-huge btn-success" onclick="play('zhi3');">zhi3</button></td><td>go</td></tr>
-		<tr><td>夊</td><td><small>(bottom)</small></td><td><button type="button" class="btn btn-huge btn-danger" onclick="play('sui1');">sui1</button></td><td>go slowly</td></tr>
+		<tr><td><sup>夂</sup></td><td><small><sup><i>top</i></sup></small></td><td><button type="button" class="btn btn-huge btn-success" onclick="play('zhi3');">zhi3</button></td><td>go</td></tr>
+		<tr><td><sub>夊</sub></td><td><small><sub><i>bottom</i></sub></small></td><td><button type="button" class="btn btn-huge btn-danger" onclick="play('sui1');">sui1</button></td><td>go slowly</td></tr>
 		<tr><td>金</td><td></td><td><button type="button" class="btn btn-huge btn-danger" onclick="play('jin1');">jin1</button></td><td>gold</td></tr>
 		<tr><td>禾</td><td></td><td><button type="button" class="btn btn-huge btn-warning" onclick="play('he2');">he2</button></td><td>grain</td></tr>
 		<tr><td>艸</td><td>艹</td><td><button type="button" class="btn btn-huge btn-success" onclick="play('cao3');">cao3</button></td><td>grass</td></tr>
