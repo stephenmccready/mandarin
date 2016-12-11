@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" content=""/>
+	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>&#128179; shopping 店</title>
 	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -13,35 +13,32 @@
 	<link rel="stylesheet" href="css/chinese.css">
 </head>
 <body>
-<audio controls="" id="yuan2"><source src="audio/yuan2.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="duo1"><source src="audio/duo1.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="shao3"><source src="audio/shao3.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="ni3"><source src="audio/ni3.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="you3"><source src="audio/you3.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="kan4"><source src="audio/kan4.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="xiao3"><source src="audio/xiao3.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="zhong1"><source src="audio/zhong1.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="da4"><source src="audio/da4.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="jia1"><source src="audio/jia1.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="hao4"><source src="audio/hao4.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="ling3"><source src="audio/ling3.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="dai4"><source src="audio/dai4.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="xi1"><source src="audio/xi1.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="fu2"><source src="audio/fu2.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="wai4"><source src="audio/wai4.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="tao4"><source src="audio/tao4.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="jai2"><source src="audio/jai2.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="ke4"><source src="audio/ke4.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="qun2"><source src="audio/qun2.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="zi1"><source src="audio/zi1.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="shou3"><source src="audio/shou3.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
-<audio controls="" id="tao4"><source src="audio/tao4.mp3" preload="metadata" type="audio/mpeg">No audio</audio>
+<audio controls="" id="yuan2"><source src="audio/yuan2.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="duo1"><source src="audio/duo1.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="shao3"><source src="audio/shao3.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="ni3"><source src="audio/ni3.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="you3"><source src="audio/you3.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="kan4"><source src="audio/kan4.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="xiao3"><source src="audio/xiao3.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="zhong1"><source src="audio/zhong1.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="da4"><source src="audio/da4.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="jia1"><source src="audio/jia1.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="hao4"><source src="audio/hao4.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="ling3"><source src="audio/ling3.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="dai4"><source src="audio/dai4.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="xi1"><source src="audio/xi1.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="fu2"><source src="audio/fu2.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="wai4"><source src="audio/wai4.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="tao4"><source src="audio/tao4.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="jai2"><source src="audio/jai2.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="ke4"><source src="audio/ke4.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="qun2"><source src="audio/qun2.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="zi1"><source src="audio/zi1.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="shou3"><source src="audio/shou3.mp3" type="audio/mpeg">No audio</audio>
 <?php include 'navbar.html'; ?>
 <div class="container-fluid">
 	<div class="box">
-		<div>yuán</div><div class="character">元</div><div class="btn-group btn-group-lg">
-			<button type="button" class="btn btn-huge btn-warning" onclick="play('yuan2');">yuán</button>
-		</div>
+		<div>yuán</div><div class="character">元</div><div class="btn-group btn-group-lg"><button type="button" class="btn btn-huge btn-warning" onclick="play('yuan2');">yuán</button></div>
 	</div>
 	<div class="box">
 		<div>how much?</div><div class="character">若干</div><div class="btn-group btn-group-lg">
@@ -63,19 +60,13 @@
 	</div>
 	<div class="clearfix"></div>
 	<div class="box">
-		<div>small</div><div class="character">小</div><div class="btn-group btn-group-lg">
-			<button type="button" class="btn btn-huge btn-success" onclick="play('xiao3');">xiǎo</button>
-		</div>
+		<div>small</div><div class="character">小</div><div class="btn-group btn-group-lg"><button type="button" class="btn btn-huge btn-success" onclick="play('xiao3');">xiǎo</button></div>
 	</div>
 	<div class="box">
-		<div>medium</div><div class="character">中</div><div class="btn-group btn-group-lg">
-			<button type="button" class="btn btn-huge btn-danger" onclick="play('zhong1');">zhōng</button>
-		</div>
+		<div>medium</div><div class="character">中</div><div class="btn-group btn-group-lg"><button type="button" class="btn btn-huge btn-danger" onclick="play('zhong1');">zhōng</button></div>
 	</div>
 	<div class="box">
-		<div>large</div><div class="character">大</div><div class="btn-group btn-group-lg">
-			<button type="button" class="btn btn-huge btn-primary" onclick="play('da4');">dà</button>
-		</div>
+		<div>large</div><div class="character">大</div><div class="btn-group btn-group-lg"><button type="button" class="btn btn-huge btn-primary" onclick="play('da4');">dà</button></div>
 	</div>
 	<div class="box">
 		<div>extra large</div><div class="character">加大号</div><div class="btn-group btn-group-lg">
