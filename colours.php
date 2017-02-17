@@ -13,6 +13,9 @@
 	<link rel="stylesheet" href="css/chinese.css">
 </head>
 <body>
+<audio controls="" id="ji1"><source src="audio/ji1.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="ben3"><source src="audio/ben3.mp3" type="audio/mpeg">No audio</audio>
+<audio controls="" id="yan2"><source src="audio/yan2.mp3" type="audio/mpeg">No audio</audio>
 <audio controls="" id="lu4"><source src="audio/lu4.mp3" type="audio/mpeg">No audio</audio>
 <audio controls="" id="se4"><source src="audio/se4.mp3" type="audio/mpeg">No audio</audio>
 <audio controls="" id="hong2"><source src="audio/hong2.mp3" type="audio/mpeg">No audio</audio>
@@ -96,6 +99,6 @@
 	</div>
 </div>
 <script src="js/chinese.js"></script>
-<script>$("#breadcrumb").html("&#9986;&nbsp;basics&nbsp;基本 > &#127912;&nbsp;colours&nbsp;运动 >");</script>
+<script>$("#breadcrumb").html("&#9986;&nbsp;basics&nbsp;<div class='btn-group'><button type='button' class='btn btn-nav btn-danger' onclick='play(&#39;ji1&#39;);'>基 jī</button><button type='button' class='btn btn-nav btn-success' onclick='play(&#39;ben3&#39;);'>本 běn</button>&nbsp;&#9658&nbsp;</div> &#127912;&nbsp;colours&nbsp;<div class='btn-group'><button type='button' class='btn btn-nav btn-warning' onclick='play(&#39;yan2&#39;);'>运 yán</button><button type='button' class='btn btn-nav btn-primary' onclick='play(&#39;se4&#39;);'>动 sè</button></div>");</script>
 </body>
 </html>
