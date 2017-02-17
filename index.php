@@ -22,7 +22,7 @@
 <div class="container-fluid">
 	<div>The 4 tones of Mandarin</div>
 	<div class="clearfix"></div>
-	<div class="box"><div>mother</div><div><button type="button" class="btn btn-huge btn-danger" onclick="play('ma1');"><div class="character">媽</div>shī 1</button></div></div>
+	<div class="box"><div>mother</div><div><button type="button" class="btn btn-huge btn-danger" onclick="play('ma1');"><div class="character">媽</div>mā 1</button></div></div>
 	<div class="box"><div>hemp</div><div><button type="button" class="btn btn-huge btn-warning" onclick="play('ma2');"><div class="character">麻</div>má 2</button></div></div>
 	<div class="box"><div>horse</div><div><button type="button" class="btn btn-huge btn-success" onclick="play('ma3');"><div class="character">馬</div>mǎ 3</button></div></div>
 	<div class="box"><div>scold</div><div><button type="button" class="btn btn-huge btn-primary" onclick="play('ma4');"><div class="character">罵</div>mà 4</button></div></div>
