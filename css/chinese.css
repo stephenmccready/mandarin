@@ -1,13 +1,15 @@
 body {font-size: 1.475em;}
 .container-fluid {padding-left: 1% !important; text-align: center !important;}
 .navbar {margin-bottom: 5px !important;}
+.navbar-collapse {padding-left: 0 !important; padding-right: 0 !important;}
 .navbar-nav li {font-size: 1.25em !important; text-align: center !important; vertical-align: middle !important;}
 .navbar-nav li a {line-height: 1.25em !important;}
 .navbar-nav>li>a,.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {border:1px solid silver;}
 .chinese {font-family: "微軟正黑體", "Microsoft JhengHei",  Tahoma , Verdana , Arial , sans-serif;}
 .box {margin: 0.75% 0.75% 2em 0.75%; padding: 0.5%; text-align: center; display: inline-block; font-size: 1.5em;}
 .character {font-size: 1.75em;}
-.btn-huge {font-size: 1.1em !important;}
+.btn-nav {line-height: .75em;}
+.btn-huge {font-size: 1em !important;}
 audio {display: none;}
 .imgContainer {text-align: center;}
 .green {background-color: green; color: white;}
@@ -24,9 +26,17 @@ audio {display: none;}
 .brown {background-color: brown; color: white;}
 .gold {background-color: gold;}
 .silver {background-color: silver;}
-.dynasty {vertical-align: middle;}
-.dynasty td {border: 1px solid silver; padding: .15em .5em .15em .5em;}
+table.dynasty, table.radical {vertical-align: middle !important;}
+table.dynasty td {padding: .15em .5em .15em .5em !important;}
+table.radical td {border: 1px solid silver !important; padding: .15em .5em .15em .5em !important;}
+table.radical td:first-child, table.radical th:first-child, table.radical td:nth-child(2) {font-size: 3em;}
 td {text-align: center;}
 th {text-align: center;}
+table.lions td {text-align: left;}
+table.lions td:first-child {font-size: 2em;}
+div.lions {font-size: 2em;}
+div.lions p {margin-bottom: 1em;}
+div.lions button {margin-bottom: 5px;}
 .compass td {padding: .25em 1em .25em 1em;}
 .directions {display: inline-block;}
+.dev {color: silver !important;}
