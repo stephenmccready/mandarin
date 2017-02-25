@@ -20,14 +20,35 @@
 <audio controls="" id="jia1"><source src="audio/jia1.mp3" type="audio/mpeg">No audio</audio>
 <?php include 'navbar.html'; ?>
 <div class="container-fluid">
-	<div>The 4 tones of Mandarin</div>
+	<header><h2>The 4 tones of Mandarin</h2></header>
 	<div class="clearfix"></div>
 	<div class="box"><div>mother</div><div><button type="button" class="btn btn-huge btn-danger" onclick="play('ma1');"><div class="character">媽</div>mā 1</button></div></div>
 	<div class="box"><div>hemp</div><div><button type="button" class="btn btn-huge btn-warning" onclick="play('ma2');"><div class="character">麻</div>má 2</button></div></div>
 	<div class="box"><div>horse</div><div><button type="button" class="btn btn-huge btn-success" onclick="play('ma3');"><div class="character">馬</div>mǎ 3</button></div></div>
 	<div class="box"><div>scold</div><div><button type="button" class="btn btn-huge btn-primary" onclick="play('ma4');"><div class="character">罵</div>mà 4</button></div></div>
+	<div class="clearfix">&nbsp;</div>
+	<header><h2>Play any Pinyin</h2></header>
+	Enter pinyin: <input type="text" id="pinyin" maxlength="5">
+	<div class="clearfix"></div>
+	<div class="box"><button type="button" id="1" class="btn btn-huge btn-danger trigger" href="#">1</button></div>
+	<div class="box"><button type="button" id="2" class="btn btn-huge btn-warning trigger" href="#">2</button></div>
+	<div class="box"><button type="button" id="3" class="btn btn-huge btn-success trigger" href="#">3</button></div>
+	<div class="box"><button type="button" id="4" class="btn btn-huge btn-primary trigger" href="#">4</button></div>
 </div>
+<div id="audio_player_container"></div>
 <script src="js/chinese.js"></script>
-<script>$("#breadcrumb").html("&#127968;&nbsp;home&nbsp;<button type='button' class='btn btn-nav btn-danger' onclick='play(&#39;jia1&#39;);'>家 jiā</button>");</script>
+<script>$("#breadcrumb").html("&#127968;&nbsp;home&nbsp;<button type='button' class='btn btn-nav btn-danger' onclick='play(&#39;jia1&#39;);'>家 jiā</button>");
+
+$(".trigger").on("click", function(e) {
+   e.preventDefault();
+   var audio_markup = '<audio id="audio_player" controls preload="auto">';
+   audio_markup += '<source id="audio_src" src="audio/'+$("#pinyin").val()+this.id+'.mp3" type="audio/mpeg">';
+   audio_markup += '</audio>';
+   $("#audio_player_container").html(audio_markup);
+   var player = $("#audio_player"); 
+   player[0].load();
+   player[0].play();
+});
+</script>
 </body>
 </html>
