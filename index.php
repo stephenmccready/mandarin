@@ -28,7 +28,7 @@
 	<div class="box"><div>scold</div><div><button type="button" class="btn btn-huge btn-primary" onclick="play('ma4');"><div class="character">罵</div>mà 4</button></div></div>
 	<div class="clearfix">&nbsp;</div>
 	<header><h2>Play any Pinyin</h2></header>
-	Enter pinyin: <input type="text" id="pinyin" maxlength="5">
+	Enter pinyin: <input type="text" id="pinyin" maxlength="5"/>
 	<div class="clearfix"></div>
 	<div class="box"><button type="button" id="1" class="btn btn-huge btn-danger trigger" href="#">1</button></div>
 	<div class="box"><button type="button" id="2" class="btn btn-huge btn-warning trigger" href="#">2</button></div>
